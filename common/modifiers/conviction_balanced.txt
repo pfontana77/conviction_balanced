@@ -1,0 +1,55 @@
+﻿# Adults: Multiplied by Finesse
+static_finesse_mod = {
+	support_for_character_as_heir = 1
+	holdings_possible_for_character = 0.5
+	monthly_character_experience = 0.025
+
+	monthly_oligarchic_party_conviction = 0.01
+	monthly_optimates_party_conviction = 0.01
+	monthly_democratic_party_conviction = 0.01
+	monthly_populares_party_conviction = 0.01
+
+}
+
+# Adults: Multiplied by Charisma
+static_charisma_mod = {
+	monthly_character_popularity = 0.025
+	loyalty_gain_chance = 0.5
+	support_for_character_as_heir = 2
+	holding_income_modifier = 0.01
+
+	monthly_democratic_party_conviction = 0.02	
+	monthly_populares_party_conviction = 0.02
+	monthly_traditionalist_party_conviction = 0.01
+	monthly_boni_party_conviction = 0.01
+
+}
+# Adults: Multiplied by Martial
+static_martial_mod = {
+	support_for_character_as_heir = 2
+
+	monthly_oligarchic_party_conviction = 0.02
+	monthly_optimates_party_conviction = 0.02
+
+	enslavement_efficiency = 0.01
+}
+
+# Adults: Multiplied by Zeal
+static_zeal_mod = {
+	support_for_character_as_heir = 1
+
+	monthly_traditionalist_party_conviction = 0.02
+	monthly_boni_party_conviction = 0.02
+}
+
+governor_martial_mod = {
+	local_output_modifier = 0.015
+}
+
+# Oligarchic: Martial, Finesse
+# Traditionalist: Zeal, Charisma
+# Democratic: Charisma, Finesse
+
+# Populares = Democratic
+# Boni = Traditionalist
+# Optimates = Oligarchic
